@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_s2_adv/cache_module/logics/cache_theme_logic.dart';
+import 'package:flutter_s2_adv/cache_module/in_class_module/logics/cache_theme_logic.dart';
 import 'package:provider/provider.dart';
-import 'package:snapshot/snapshot.dart';
 import 'screens/pref_screen.dart';
 
 Widget cacheAppWithProvider() {

@@ -44,6 +44,8 @@ dependencies:
   http: ^1.1.0
   shared_preferences: ^2.2.3
   flutter_secure_storage: ^9.0.0
+  google_nav_bar: ^5.0.6
+  google_fonts: ^6.2.1
 
 
 
@@ -70,8 +72,10 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+    - lib/cache_module/shop_module/minimal_shop/assets/mouses/
+    - lib/cache_module/shop_module/minimal_shop/assets/laptops/
+    - lib/cache_module/shop_module/minimal_shop/assets/keyboards/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
